@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="match_parent"
+   	    android:layout_height="match_parent" 
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/i_con10" />
+
+    <Button
+        android:id="@+id/memBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+         />
+<LinearLayout 
+   	    android:id="@+id/loginForm"    
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    	
+    >
+
+ <Button
+        android:id="@+id/LoginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그인"
+         />
+</LinearLayout>
+<LinearLayout 
+        android:id="@+id/loginProc"    
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+    >
+
+    <Button
+        android:id="@+id/LogOutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그아웃" />
+</LinearLayout>
+    <Button
+        android:id="@+id/gameBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="게임시작"
+         />
+    
+    <Button
+        android:id="@+id/ListBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="리스트보기"
+         />
+    
+    <Button
+        android:id="@+id/setBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="환경설정"
+         />
+
+
+</LinearLayout>

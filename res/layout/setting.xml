@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <SeekBar
+        android:id="@+id/setBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50"
+        android:secondaryProgress="45" />
+     <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+             android:textSize="20dp"
+            android:text="sound" />
+    
+     
+     <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+             android:textSize="20dp"
+            android:text="wi-Fi" />
+  
+   <Button
+        android:id="@+id/okBtn"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_gravity="right"
+        android:layout_marginBottom="50dp"
+        android:text="확인"
+        />     
+    
+        </LinearLayout>
